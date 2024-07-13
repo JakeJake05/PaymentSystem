@@ -1,0 +1,151 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "PaymentSystem/1.0.0": {
+        "dependencies": {
+          "Interop.stdole": "2.0.0.0",
+          "Interop.MSDASC": "1.0.0.0",
+          "Interop.Microsoft.Office.Interop.Access": "9.0.0.0",
+          "Interop.MDACVer": "2.50.0.0",
+          "Interop.StdFormat": "1.0.0.0",
+          "Interop.MSDATASRC": "1.0.0.0",
+          "Interop.micautLib": "1.0.0.0",
+          "Interop.OLEDBError": "1.0.0.0",
+          "Interop.MSDAOSP": "1.5.0.0"
+        },
+        "runtime": {
+          "PaymentSystem.dll": {}
+        }
+      },
+      "Interop.stdole/2.0.0.0": {
+        "runtime": {
+          "Interop.stdole.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Interop.MSDASC/1.0.0.0": {
+        "runtime": {
+          "Interop.MSDASC.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Interop.Microsoft.Office.Interop.Access/9.0.0.0": {
+        "runtime": {
+          "Interop.Microsoft.Office.Interop.Access.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.0.0"
+          }
+        }
+      },
+      "Interop.MDACVer/2.50.0.0": {
+        "runtime": {
+          "Interop.MDACVer.dll": {
+            "assemblyVersion": "2.50.0.0",
+            "fileVersion": "2.50.0.0"
+          }
+        }
+      },
+      "Interop.StdFormat/1.0.0.0": {
+        "runtime": {
+          "Interop.StdFormat.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Interop.MSDATASRC/1.0.0.0": {
+        "runtime": {
+          "Interop.MSDATASRC.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Interop.micautLib/1.0.0.0": {
+        "runtime": {
+          "Interop.micautLib.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Interop.OLEDBError/1.0.0.0": {
+        "runtime": {
+          "Interop.OLEDBError.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Interop.MSDAOSP/1.5.0.0": {
+        "runtime": {
+          "Interop.MSDAOSP.dll": {
+            "assemblyVersion": "1.5.0.0",
+            "fileVersion": "1.5.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PaymentSystem/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Interop.stdole/2.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Interop.MSDASC/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Interop.Microsoft.Office.Interop.Access/9.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Interop.MDACVer/2.50.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Interop.StdFormat/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Interop.MSDATASRC/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Interop.micautLib/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Interop.OLEDBError/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Interop.MSDAOSP/1.5.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

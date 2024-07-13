@@ -1,0 +1,149 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows7.0</TargetFramework>
+    <StartupObject>PaymentSystem.My.MyApplication</StartupObject>
+    <UseWindowsForms>true</UseWindowsForms>
+    <MyType>WindowsForms</MyType>
+    <ImportedNamespaces>System.Data=False,System.Data.Odbc=False,System.Data.OleDb=False,System.Drawing=False,System.Windows.Forms=False,Microsoft.VisualBasic=True,System=True,System.Collections=True,System.Collections.Generic=True,System.Diagnostics=True,System.Linq=True,System.Xml.Linq=True,System.Threading.Tasks=True,PaymentSystem=True</ImportedNamespaces>
+    <ApplicationIcon>images\icpeplogo.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Optimize>True</Optimize>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <COMReference Include="{00020430-0000-0000-c000-000000000046}">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>0</VersionMinor>
+      <VersionMajor>2</VersionMajor>
+      <Guid>00020430-0000-0000-c000-000000000046</Guid>
+    </COMReference>
+    <COMReference Include="{2206ceb0-19c1-11d1-89e0-00c04fd7a829}">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>0</VersionMinor>
+      <VersionMajor>1</VersionMajor>
+      <Guid>2206ceb0-19c1-11d1-89e0-00c04fd7a829</Guid>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Access.Dao">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>0</VersionMinor>
+      <VersionMajor>12</VersionMajor>
+      <Guid>4ac9e1da-5bad-4ac7-86e3-24f4cdceca28</Guid>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="{4affc9a0-5f99-101b-af4e-00aa003f0f07}">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>0</VersionMinor>
+      <VersionMajor>9</VersionMajor>
+      <Guid>4affc9a0-5f99-101b-af4e-00aa003f0f07</Guid>
+    </COMReference>
+    <COMReference Include="{54af9343-1923-11d3-9ca4-00c04f72c514}">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>50</VersionMinor>
+      <VersionMajor>2</VersionMajor>
+      <Guid>54af9343-1923-11d3-9ca4-00c04f72c514</Guid>
+    </COMReference>
+    <COMReference Include="{6b263850-900b-11d0-9484-00a0c91110ed}">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>0</VersionMinor>
+      <VersionMajor>1</VersionMajor>
+      <Guid>6b263850-900b-11d0-9484-00a0c91110ed</Guid>
+    </COMReference>
+    <COMReference Include="{7c0ffab0-cd84-11d0-949a-00a0c91110ed}">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>0</VersionMinor>
+      <VersionMajor>1</VersionMajor>
+      <Guid>7c0ffab0-cd84-11d0-949a-00a0c91110ed</Guid>
+    </COMReference>
+    <COMReference Include="{928cef0c-5a84-48ac-bf37-c5c21039b83a}">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>0</VersionMinor>
+      <VersionMajor>1</VersionMajor>
+      <Guid>928cef0c-5a84-48ac-bf37-c5c21039b83a</Guid>
+    </COMReference>
+    <COMReference Include="{c8b522d5-5cf3-11ce-ade5-00aa0044773d}">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>0</VersionMinor>
+      <VersionMajor>1</VersionMajor>
+      <Guid>c8b522d5-5cf3-11ce-ade5-00aa0044773d</Guid>
+    </COMReference>
+    <COMReference Include="{e0e270c2-c0be-11d0-8fe4-00a0c90a6341}">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>5</VersionMinor>
+      <VersionMajor>1</VersionMajor>
+      <Guid>e0e270c2-c0be-11d0-8fe4-00a0c90a6341</Guid>
+    </COMReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="images\icpeplogo.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Import Include="System.Data" />
+    <Import Include="System.Data.Odbc" />
+    <Import Include="System.Data.OleDb" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETCore.Targets" Version="1.1.0" />
+    <PackageReference Include="Microsoft.NETCore.Windows.ApiSets-x64" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Data">
+      <HintPath>file\New folder\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.OleDb">
+      <HintPath>file\System.Data.OleDb.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.OracleClient">
+      <HintPath>C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Data.OracleClient.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="My Project\Application.Designer.vb">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Update="My Project\Resources.Designer.vb">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="My Project\Resources.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="db\" />
+  </ItemGroup>
+
+</Project>

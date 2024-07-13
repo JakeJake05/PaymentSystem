@@ -1,0 +1,116 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\PaymentSystem\\PaymentSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9973965A-0005-4234-87A1-122B8A28FB25}|PaymentSystem\\PaymentSystem.vbproj|D:\\Projects\\PaymentSystem\\PaymentSystem\\paymentsystem\\paymentwindow.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{9973965A-0005-4234-87A1-122B8A28FB25}|PaymentSystem\\PaymentSystem.vbproj|solutionrelative:paymentsystem\\paymentwindow.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9973965A-0005-4234-87A1-122B8A28FB25}|PaymentSystem\\PaymentSystem.vbproj|D:\\Projects\\PaymentSystem\\PaymentSystem\\paymentsystem\\paymentconfirmation.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{9973965A-0005-4234-87A1-122B8A28FB25}|PaymentSystem\\PaymentSystem.vbproj|solutionrelative:paymentsystem\\paymentconfirmation.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9973965A-0005-4234-87A1-122B8A28FB25}|PaymentSystem\\PaymentSystem.vbproj|D:\\Projects\\PaymentSystem\\PaymentSystem\\paymentsystem\\loggeduserwindow.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{9973965A-0005-4234-87A1-122B8A28FB25}|PaymentSystem\\PaymentSystem.vbproj|solutionrelative:paymentsystem\\loggeduserwindow.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9973965A-0005-4234-87A1-122B8A28FB25}|PaymentSystem\\PaymentSystem.vbproj|D:\\Projects\\PaymentSystem\\PaymentSystem\\paymentsystem\\registarionwindow.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{9973965A-0005-4234-87A1-122B8A28FB25}|PaymentSystem\\PaymentSystem.vbproj|solutionrelative:paymentsystem\\registarionwindow.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9973965A-0005-4234-87A1-122B8A28FB25}|PaymentSystem\\PaymentSystem.vbproj|d:\\projects\\paymentsystem\\paymentsystem\\paymentsystem\\loginwindow.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{9973965A-0005-4234-87A1-122B8A28FB25}|PaymentSystem\\PaymentSystem.vbproj|solutionrelative:paymentsystem\\loginwindow.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9973965A-0005-4234-87A1-122B8A28FB25}|PaymentSystem\\PaymentSystem.vbproj|D:\\Projects\\PaymentSystem\\PaymentSystem\\paymentsystem\\paymentsystem.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{9973965A-0005-4234-87A1-122B8A28FB25}|PaymentSystem\\PaymentSystem.vbproj|solutionrelative:paymentsystem\\paymentsystem.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PaymentSystem",
+              "DocumentMoniker": "D:\\Projects\\PaymentSystem\\PaymentSystem\\PaymentSystem\\PaymentSystem.vbproj",
+              "RelativeDocumentMoniker": "PaymentSystem\\PaymentSystem.vbproj",
+              "ToolTip": "D:\\Projects\\PaymentSystem\\PaymentSystem\\PaymentSystem\\PaymentSystem.vbproj",
+              "RelativeToolTip": "PaymentSystem\\PaymentSystem.vbproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003380|",
+              "WhenOpened": "2024-04-22T06:48:48.516Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginWindow.vb [Design]",
+              "DocumentMoniker": "D:\\Projects\\PaymentSystem\\PaymentSystem\\PaymentSystem\\LoginWindow.vb",
+              "RelativeDocumentMoniker": "PaymentSystem\\LoginWindow.vb",
+              "ToolTip": "D:\\Projects\\PaymentSystem\\PaymentSystem\\PaymentSystem\\LoginWindow.vb [Design]",
+              "RelativeToolTip": "PaymentSystem\\LoginWindow.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-04-22T15:29:06.445Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegistarionWindow.vb [Design]",
+              "DocumentMoniker": "D:\\Projects\\PaymentSystem\\PaymentSystem\\PaymentSystem\\RegistarionWindow.vb",
+              "RelativeDocumentMoniker": "PaymentSystem\\RegistarionWindow.vb",
+              "ToolTip": "D:\\Projects\\PaymentSystem\\PaymentSystem\\PaymentSystem\\RegistarionWindow.vb [Design]",
+              "RelativeToolTip": "PaymentSystem\\RegistarionWindow.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-04-22T20:13:25.667Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoggedUserWindow.vb [Design]",
+              "DocumentMoniker": "D:\\Projects\\PaymentSystem\\PaymentSystem\\PaymentSystem\\LoggedUserWindow.vb",
+              "RelativeDocumentMoniker": "PaymentSystem\\LoggedUserWindow.vb",
+              "ToolTip": "D:\\Projects\\PaymentSystem\\PaymentSystem\\PaymentSystem\\LoggedUserWindow.vb [Design]",
+              "RelativeToolTip": "PaymentSystem\\LoggedUserWindow.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-04-22T17:09:44.419Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PaymentWindow.vb [Design]",
+              "DocumentMoniker": "D:\\Projects\\PaymentSystem\\PaymentSystem\\PaymentSystem\\PaymentWindow.vb",
+              "RelativeDocumentMoniker": "PaymentSystem\\PaymentWindow.vb",
+              "ToolTip": "D:\\Projects\\PaymentSystem\\PaymentSystem\\PaymentSystem\\PaymentWindow.vb [Design]",
+              "RelativeToolTip": "PaymentSystem\\PaymentWindow.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-04-22T20:16:59.587Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PaymentConfirmation.vb [Design]",
+              "DocumentMoniker": "D:\\Projects\\PaymentSystem\\PaymentSystem\\PaymentSystem\\PaymentConfirmation.vb",
+              "RelativeDocumentMoniker": "PaymentSystem\\PaymentConfirmation.vb",
+              "ToolTip": "D:\\Projects\\PaymentSystem\\PaymentSystem\\PaymentSystem\\PaymentConfirmation.vb [Design]",
+              "RelativeToolTip": "PaymentSystem\\PaymentConfirmation.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-04-22T15:39:56.47Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
